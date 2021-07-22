@@ -21,6 +21,29 @@ ul{
   list-style: none;
 }
 
+h4,
+h2{
+  margin: 0; /* потом удалить или проверить */
+}
+
+p{
+  margin: 0; /* потом удалить или проверить */
+}
+
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #868585;
+  margin-bottom: 60px;
+}
+
 .header{
   background-image: url(../img/header-bg.jpg);
   height: 100vh;
@@ -33,6 +56,7 @@ ul{
   flex-direction: column;
   justify-content: space-between;
   padding: 70px 10px 38px;
+  margin-bottom: 150px;
 }
 
 .header__subtitle{
@@ -84,4 +108,32 @@ ul{
 
 .social__link{
   padding: 0 10px;
+}
+
+.service {
+  margin-bottom: 150px;
+}
+
+.service__inner{
+  display: flex;
+}
+
+.service__content{
+  flex-basis: 510px;
+  margin-right: 90px;
+}
+
+.service__box{
+  margin-bottom: 50px;
+}
+
+.service__box-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.service__img{
+  object-fit: cover;
 }
